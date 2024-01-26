@@ -1,7 +1,7 @@
 const ourCourse = {
   title: "Fullstack App & Web Developer",
-  year: 2023,
-  teachers: ["Sascha", "Ulrich", "Ralf"],
+  year: 2024,
+  teachers: ["Staicy", "Sascha", "Ulrich", "Ralf"],
   school: {
     name: "taktsoft campus talents",
     city: "Bonn",

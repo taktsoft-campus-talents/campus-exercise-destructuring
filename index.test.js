@@ -35,11 +35,11 @@ describe("Test destructuring exercises", () => {
     const spy = jest.spyOn(console, "log");
     exercises.printTeachers();
     expect(spy).toHaveBeenCalled();
-    expect(spy).toHaveBeenCalledWith("Sascha", "Ulrich", "Ralf");
+    expect(spy).toHaveBeenCalledWith("Staicy", "Sascha", "Ulrich", "Ralf");
     spy.mockRestore();
   });
   it("Exercise 7 should export an array 'allTeachers' containing all teachers of the course AND a new teacher 'Thomas' at index 0", () => {
-    expect(exercises.allTeachers[0]).toEqual("Thomas");
+    expect(exercises.allTeachers[0]).toEqual("Staicy");
     expect(exercises.allTeachers[1]).toEqual("Sascha");
     expect(exercises.allTeachers[2]).toEqual("Ulrich");
     expect(exercises.allTeachers[3]).toEqual("Ralf");

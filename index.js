@@ -1,7 +1,7 @@
 const ourCourse = {
   title: "Fullstack App & Web Developer",
   year: 2024,
-  teachers: ["Staicy", "Sascha", "Ulrich", "Ralf"],
+  teachers: ["Staicy", "Ernst", "Ulrich", "Ralf"],
   school: {
     name: "taktsoft campus talents",
     city: "Bonn",
@@ -38,11 +38,11 @@ export { demo };
 
 // Exercise 5:
 // Create and export the following variables:
-// 'firstTeacher' with the value of "Sascha"
-// 'otherTeachers' as an array containing the other teachers except Sascha
+// 'firstTeacher' with the value of "Staicy"
+// 'otherTeachers' as an array containing the other teachers except Staicy
 
 // Exercise 6:
-// Write and export a function 'printTeachers' that uses console.log() to print "Sascha Ulrich Ralf"
+// Write and export a function 'printTeachers' that uses console.log() to print "Ernst Ulrich Ralf"
 
 // Exercise 7:
 // Create and export a new array 'allTeachers' containing all teachers of the course AND a new teacher "Thomas" as first entry
